@@ -1,0 +1,20 @@
+.chart {
+    flex: 2;
+    padding: 10px;
+    background-color: white;
+    height: 350px;
+    width: 689px;
+  
+    .title {
+      margin-bottom: 20px;
+    }
+  .date{
+    font-family: 'Segoe UI';
+font-size: 18px;
+color: #4F4F4F;
+margin-left: 30px;
+  }
+    .chartGrid {
+      stroke: transparent;
+    }
+  }
