@@ -26,6 +26,9 @@ function BasicSelect() {
           <MenuItem value={10}>All</MenuItem>
           <MenuItem value={20}>Reconciled</MenuItem>
           <MenuItem value={30}>Unreconciled</MenuItem>
+          <MenuItem value={40}>Settled</MenuItem>
+          <MenuItem value={50}>Unsettled</MenuItem>
+
         </Select>
       </FormControl>
     </Box>

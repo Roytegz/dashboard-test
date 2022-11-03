@@ -1,5 +1,5 @@
 import TableHeader from "./Header";
-import Pagination from "./PaginationComponent";
+import Paginate from "./Paginate";
 import Search from "./Search";
 import Select from "./Select";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown'
@@ -149,13 +149,13 @@ const Table = () => {
           </table>
           <div className="show-payment">
             <p>
-              Showing
-              <span className="payment-numb">20</span>
-              out of 500 payments
+              Showing 1 to 10
+              
+              out of 500 entries
             </p>
           </div>
           <div className="pagination">
-            <Pagination
+            <Paginate
               total={totalItems}
               itemsPerPage={ITEMS_PER_PAGE}
               currentPage={currentPage}

@@ -4,7 +4,7 @@ import Chart from '../../components/charts/Chart'
  import Navbar from '../../components/navbar/Navbar'
 import Order from '../../components/order/Order'
 import Sidebar from '../../components/sidebar/Sidebar'
-//import Table from '../../components/table/table'
+import Table from '../../components/table/Table'
  import Usercard from '../../components/usercard/Usercard'
 import './Home.scss'
 
@@ -14,7 +14,7 @@ const cardContent = [
       description: 'Daily Transaction Volume',
     },
     {
-      amount: '4,000,000',
+      amount: '₦4,000,000',
       description: 'Daily Transaction Value',
     },
     {
@@ -22,7 +22,7 @@ const cardContent = [
       description: 'Total Transaction Volume',
     },
     {
-      amount: '4,000,000',
+      amount: '₦4,000,000',
       
       description: 'Total Transaction Value',
     },
@@ -66,6 +66,7 @@ function Home() {
               />
             </div>
             </div>
+            <Table />
 
             </div>
             </div>
